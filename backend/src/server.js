@@ -23,10 +23,6 @@ app.use(
   })
 );
 
-app.use(cors({
-  origin: "https://e-book-three-pi.vercel.app",
-  credentials: true
-}));
 
 // Routes
 app.use("/api/auth", authRouter);

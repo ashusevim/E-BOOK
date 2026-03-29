@@ -396,7 +396,7 @@ function SignUpPage() {
                 required
                 placeholder="email@example.com"
                 icon={Mail}
-                error={errors.email}
+               
               />
             </div>
 
